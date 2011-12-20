@@ -1,0 +1,11 @@
+rss.php
+ja.forums.wordpress.org の rss を取得する
+記事番号は適宜変更する
+
+concat.sh
+rssから抽出したデータを一つのファイルにまとめる
+
+users.py
+NLTKツールを利用して、文字列の出現頻度の高い順に並べ替える
+data/userlist.txt に出力する
+(ツールは、nltk.orgからダウンロード可能。ubuntu ならパッケージ有り)
