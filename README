@@ -3,6 +3,10 @@ ja.forums.wordpress.org の rss を取得する
 rssdata/番号.txt に出力
 記事番号はソースコードを適宜変更する
 
+check_more_29.php
+bbpress の rss が30レスまでなので、30以上あるかチェックする。
+30以上のものは手作業で確認する
+
 rm_questioner.php
 質問者(各記事最初の投稿者)を除去する
 questioner_removed/番号.txt に出力
@@ -16,6 +20,10 @@ NLTKツールを利用して、文字列の出現頻度の高い順に並べ替�
 python users.py (num) で実行。num は整数で、省略時 20
 data/userlist.txt に出力
 (ツールは、nltk.orgからダウンロード可能。ubuntu ならパッケージ有り)
+
+usernum.py
+NLTKツールを利用して、文字列のタイプ数(回答したユーザー数)を計算
+data/usernum.txt に出力
 
 plot.py
 NLTKツールを利用して、文字列の出現頻度の高い順に図示する
