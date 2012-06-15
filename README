@@ -11,6 +11,10 @@ rm_questioner.php
 質問者(各記事最初の投稿者)を除去する
 questioner_removed/番号.txt に出力
 
+rm_bracket.php
+括弧記号()を除去する。NLTK で処理する都合上の処理
+bracket_removed/番号.txt に出力
+
 concat.sh
 rssから抽出したデータを一つのファイルにまとめる
 data/data.py に出力

@@ -1,6 +1,6 @@
 <?php
 
-for ($num=7500;$num<8600;$num++){
+for ($num=8600;$num<10700;$num++){
 	$data = file_get_contents("rssdata/".$num.".txt");
 	// 投稿者一名の時の空白を調節する
 	$data = " " . trim($data);

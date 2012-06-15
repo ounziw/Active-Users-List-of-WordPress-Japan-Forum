@@ -1,6 +1,6 @@
 <?php
 
-for ($num=7500;$num<8600;$num++){
+for ($num=10500;$num<10700;$num++){
 	$rssurl = 'http://ja.forums.wordpress.org/rss/topic/' . $num;
 	$data = "";
 	if($rssdata = simplexml_load_file($rssurl)) {
