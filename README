@@ -32,3 +32,7 @@ data/usernum.txt に出力
 plot.py
 NLTKツールを利用して、文字列の出現頻度の高い順に図示する
 matplotlib が必要
+
+LICENSE
+=======
+MIT license
