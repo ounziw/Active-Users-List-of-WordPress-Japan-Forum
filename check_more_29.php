@@ -1,6 +1,6 @@
 <?php
 
-for ($num=8600;$num<10700;$num++){
+for ($num=10700;$num<12700;$num++){
 	$data = file_get_contents("rssdata/".$num.".txt");
 	// 空白を調節する
 	$data = trim($data);
